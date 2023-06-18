@@ -1,2 +1,44 @@
-# Google App Engine generated folder
-appengine-generated/
+# Binarios generados
+bin/
+obj/
+
+# Archivos de respaldo de Visual Studio
+*.bak
+*.user
+*.suo
+*.cache
+*.csproj.user
+*.dll.refresh
+*.dbmdl
+*.log
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.sdf
+*.opensdf
+*.suo
+*.sln.docstates
+
+# Directorio NuGet
+packages/
+
+# Archivos de compilación
+*.nuget.props
+*.nuget.targets
+
+# Exclusiones específicas de ASP.NET Core
+# Archivos de registro de IIS
+wwwroot/aspnet_client/
+wwwroot/bin/
+
+# Exclusiones específicas de Visual Studio Code
+.vscode/
+
+# Exclusiones específicas de Rider
+.idea/
+*.sln.iml
+
+# Archivos de análisis
+*.swp
+*~
